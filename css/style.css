@@ -129,6 +129,11 @@ body {
   display: none;
   word-break: keep-all;
 }
+.header__tel_and_menu__tel__changed a {
+  color: black;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
 
 .header__nav__list {
   display: flex;
@@ -518,6 +523,8 @@ body {
 
   .cards_special__container-tablet {
     display: grid;
+    max-width: 730px;
+    margin: auto;
   }
 
   .cards_special__card {
@@ -594,6 +601,10 @@ body {
   }
 }
 @media screen and (min-width: 1000px) {
+  .cards_special__container-tablet {
+    max-width: 961px;
+  }
+
   .showroom__container,
 .additional__container,
 .projects__container {
@@ -666,6 +677,7 @@ body {
   }
 
   .cards_special__container {
+    max-width: 1250px;
     grid-template-columns: repeat(5, 1fr);
   }
 

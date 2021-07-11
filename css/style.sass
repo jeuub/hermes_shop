@@ -51,6 +51,10 @@ body
 .header__tel_and_menu__tel__changed
   display: none
   word-break: keep-all
+  a
+    color: black
+    font-size: 1.3rem
+    text-decoration: none  
 
 .header__nav__list
   display: flex
@@ -350,6 +354,8 @@ body
 
   .cards_special__container-tablet
     display: grid
+    max-width: 730px
+    margin: auto
   .cards_special__card
     max-width: 206px
     &-extended
@@ -409,7 +415,8 @@ body
       padding: 9px 20px
       margin-left: 10px
 @media screen and (min-width: 1000px)
-
+  .cards_special__container-tablet
+    max-width: 961px
   .showroom__container,
   .additional__container,
   .projects__container
@@ -456,6 +463,7 @@ body
   .header__logo
     width: 200px
   .cards_special__container
+    max-width: 1250px
     grid-template-columns: $grid-5
   .additional__card4 
     display: flex
