@@ -135,7 +135,7 @@ body {
   text-decoration: none;
 }
 
-.header__nav__list {
+.header__list {
   display: flex;
 }
 
@@ -204,7 +204,7 @@ body {
   display: flex;
   align-items: center;
 }
-.header__logo__img {
+.header__logo_img {
   width: 100%;
 }
 
